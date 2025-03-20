@@ -1,0 +1,9 @@
+{
+  "name": "USER DATA",
+  "version": "1.8.1",
+  "description": "User Tags Endpoints",
+  "author_name": "ElioErr",
+  "plugin_url": "https://github.com/ElioErr/catalogator_mod",
+  "tags": "cat, metadata, declarative memory, memory, filter, filters, upload, catalogator, catalog",
+  "thumb": "https://raw.githubusercontent.com/Fede91/catalogator/main/catalogator.png"
+}
