@@ -46,7 +46,7 @@ def aggiorna_users_tags_solo_nuovi():
         tags = tags_data.get("tags", [])
 
     # Crea il dizionario base dei tag
-    base_tags_dict = {tag: False for tag in tags}
+    base_tags_dict = {}
 
     # Carica il file user_status.json esistente se esiste
     output_path = Path("cat/static/user_status.json")
