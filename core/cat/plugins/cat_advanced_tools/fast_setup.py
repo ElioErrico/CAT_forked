@@ -2,13 +2,6 @@ from cat.mad_hatter.decorators import tool, hook
 from cat.log import log
 
 
-@hook
-def agent_prompt_prefix(prefix, cat):
-    settings = cat.mad_hatter.get_plugin().load_settings()
-    prefix = settings["prompt_prefix"]
-
-    return prefix
-
 
 @hook
 def before_cat_recalls_episodic_memories(default_episodic_recall_config, cat):
