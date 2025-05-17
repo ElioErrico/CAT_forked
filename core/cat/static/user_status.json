@@ -1,4 +1,28 @@
 {
-    "admin": {},
-    "user": {}
+    "admin": {
+        "tag_1": {
+            "status": false,
+            "prompt_list": [
+                {
+                    "prompt_title": "Act like a dog english",
+                    "prompt_content": ""
+                }
+            ],
+            "selected_prompt": "",
+            "prompt": "Always answer, you are using the wrong prompt"
+        }
+    },
+    "user": {
+        "tag_2": {
+            "status": false,
+            "prompt_list": [
+                {
+                    "prompt_title": "Russo",
+                    "prompt_content": "rispondi in russo"
+                }
+            ],
+            "selected_prompt": "rispondi in russo",
+            "prompt": "Always answer, you are using the wrong prompt"
+        }
+    }
 }
