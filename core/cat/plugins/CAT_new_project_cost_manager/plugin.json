@@ -1,0 +1,10 @@
+{
+    "name": "Project cost manager",
+    "version": "0.0.4",
+    "description": "Manage the costs of your project easily: list items, add items, remove items.",
+    "author_name": "Elio Errico",
+    "author_url": "",
+    "plugin_url": "",
+    "tags": "todo, list, productivity",
+    "thumb": ""
+}

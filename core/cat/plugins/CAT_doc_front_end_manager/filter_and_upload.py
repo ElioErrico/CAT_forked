@@ -56,6 +56,6 @@ def before_rabbithole_stores_documents(docs, cat):
 
     for doc in docs:
         doc.metadata.update(metadata_for_upload)
-        cat.send_ws_message(f"{str(metadata_for_upload)}", "chat")
+        # cat.send_ws_message(f"{str(metadata_for_upload)}", "chat")
 
     return docs

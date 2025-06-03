@@ -1,0 +1,8 @@
+{
+    "name": "Create a new  aggregated chunk",
+    "version": "1.6.1",
+    "description": "Create a new aggregated chunk",
+    "author_name": "Elio Errico",
+    "plugin_url": "",
+    "tags": "cat, chunk_size, rabbithole, metadata, filtering, retrival"
+}
