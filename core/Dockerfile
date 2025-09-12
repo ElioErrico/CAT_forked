@@ -11,7 +11,7 @@ RUN apt-get -y update && apt-get install -y curl build-essential fastjar libmagi
 
 ### ADMIN (static build) ###
 WORKDIR /admin
-RUN curl -sL https://github.com/ElioErrico/CAT_admin_vue_forked/releases/download/v2.0.5/release.zip | jar -xv
+RUN curl -sL https://github.com/ElioErrico/CAT_admin_vue_forked/releases/download/v4.00/release.zip | jar -xv
 
 ### PREPARE BUILD WITH NECESSARY FILES AND FOLDERS ###
 COPY ./pyproject.toml /app/pyproject.toml
